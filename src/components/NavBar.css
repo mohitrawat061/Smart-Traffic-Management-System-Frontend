@@ -33,6 +33,7 @@
 .navbar-logo-icon {
   margin-right: 10px;
   font-size: 1.75rem;
+  scale: 1.8;
 }
 
 .navbar-links {

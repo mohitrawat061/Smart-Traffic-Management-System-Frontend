@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
+import logo from "./assets/newlogo.png";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -14,8 +15,10 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <NavLink to="/" className="navbar-logo">
-        <span className="navbar-logo-icon">🚦</span>
-        Smart Traffic
+        <span className="navbar-logo-icon">
+          <img src={logo} alt="Smart Traffic Logo" style={{ height: "24px" }} />
+        </span>
+        Smart Traffic Management
       </NavLink>
 
       <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
