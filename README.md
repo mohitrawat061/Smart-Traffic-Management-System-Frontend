@@ -335,7 +335,6 @@ smart-traffic-backend/
         <img src="https://via.placeholder.com/400x200?text=Core+ML+Components" alt="Core ML Components" width="100%"/>
       </div>
     </div>
-    
     <div style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
       <h3>🔧 Utility Components</h3>
       <ul>
